@@ -8,3 +8,9 @@ spring:
       bootstrap-servers: '{cipher}AYAmkm+SAmicGahFJC9b+7dMxPjmVoZMJbiXXAKb2qIE5xSC9FxOKMsIYPp7VGvkBZnxUAdGdBYKdSCHRAq1s2G9yl/O2sDUJNqNblm2Rcikel8SogR04dyVzChzViVMkK4r7ZZy3tmoTpNJM9F5JEtR7xy/3EGnrpXGe135eAsPLOxnxO8u0aCzHA4nxpJQKlb0rHnkElEziMX4yLTyjEv63eF/pR2u4Wfg5RfIp8HJqIoYBRhWO96Jd8NzpHFT+1zuLZH9We+YgVl8cuUzc4BAP/d4kQR7E/drFWoD3u3AzjRrA/i5vQy+bo7Q5kHfG71gXJUw8BPW6qDGrNjjVJ80dFWJ0bGiELxiGvXBH3+zuNbNkgCamhgYWe2+BCq1+bmrMoNXX+Ok8UpTZqrv5V7JiPXo26AkPc/qgvyVaSpeJZ5vblCczSn9/0PKuCFlLfGAJI1dfWW0TBqlC8kEfP03/eN1yntsMP/TFK9sIXkynZF5ZsEJfHSe4yHAFDRoV5GQiAXmc4x930OIO3UDdNeYgaaDyGuHT4ELwULhlPSklkPvqkBGID0oIuhd+E9M1rd809aIzpsFuRNOqUgMDinRlic5RnKEFMiKKPW6MoAwDQ=='
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+  zipkin:
+    base-url: '{cipher}AYBi+16Y7HcU1KpOe01hvckNHCEhVfobDLV2kkCnePvDdIF/9gIjBOpKjoxwPziXj36RGPLakGwnrM+/YEtJkIbux5mzEcVtSaH67v2lkdIvOQs7txMzjmwz+9zeYUh4UWAbKoTkM/XIsN45/oazo7UAmVRwPlxoF6Z54+mBcgZsklYd+o6kG24anykqcrKIYnu/MKP1myIKApuC02aRz6WSnZcE+sw8Uu/bZH1QZax0LaG0jqLWYiyhQbD3vPBHwilizOuReHRnSk8tacx1MxdhaEcO6/1U8b4Ey0YaGma+2vJg0mR7gkZzBO330vg2ofQb7U52sWzk1LWtEACFFi9aAVcdGW0GkTJgWQLa2XL6qT6fj9O+4u5S99V5EK2750epkpQJGUgo5lIUpPeWaEQkAR/S5F97WiY1yaTSruG9xEbzeU6wqZ+h4v/fZvP0Iqn5WUHZoX6lKw9V0Ziat5MuHllu8/UDnkZHOeRNNfGf5y3xAlw/gQXheUrVb9QjreJGEPgOIuBS7VtZBzP5rcm4/ZWi4HfCAcRkULDzYkMV6A=='
+    enabled: true
+  sleuth:
+    sampler:
+      probability: 1.0
