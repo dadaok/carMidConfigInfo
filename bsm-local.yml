@@ -1,10 +1,10 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: {cipher}AYDQmHurL5kbV6iZvwySDDRiMcTrvhsyqk1DWcezcdgKcGPrHTu+O2ELyYwZYWRWX/jYvHBdZDSrPyNf1FozneSlojHO6QvsaygwSt7YItjQIddvHCT59teoOJEGxugLOPBNbqDgOdqK5bC9HwL0TqbjS60YNUfxIb0+ahxs+qimZeMX74KpTg32NiRpJ7xTQVTumBERqyOgLhkvywuRtVP54Afnq8JnxrQco/VDur25PAH3ViDmCCiW8wcM/00IYD5QjsDLXSKBInYosX3Uy6BlgDjDia36MFXemlTwTaq7kO5R1yLaySf6c4ZQ6fFpSWG4aGFnxMVcypSohjXZbNIDQBUd3vNbgz9O4lZ6bfZadsmKkm/5pEgM4QIUD9j9kHzK60BzkehndVk6T4Ip/xfB3IrGlflAvjHbziTRGNpnB14Ep9Rg9fkF8lnIC3c27pAu/enuBD2Yoj0f4APlWRoVZ9z9JEMfCQARY+HTpd1Yq0BuZwOZoBvW5XdJqZn2Raox4hODmgKIaWM5C8Lv/vv42qd02qpPbNv6UBH/ZPSSyg==
 spring:
   kafka:
     producer:
-      bootstrap-servers: 172.30.1.77:19092, 172.30.1.77:19093, 172.30.1.77:19094
+      bootstrap-servers: {cipher}AYAmkm+SAmicGahFJC9b+7dMxPjmVoZMJbiXXAKb2qIE5xSC9FxOKMsIYPp7VGvkBZnxUAdGdBYKdSCHRAq1s2G9yl/O2sDUJNqNblm2Rcikel8SogR04dyVzChzViVMkK4r7ZZy3tmoTpNJM9F5JEtR7xy/3EGnrpXGe135eAsPLOxnxO8u0aCzHA4nxpJQKlb0rHnkElEziMX4yLTyjEv63eF/pR2u4Wfg5RfIp8HJqIoYBRhWO96Jd8NzpHFT+1zuLZH9We+YgVl8cuUzc4BAP/d4kQR7E/drFWoD3u3AzjRrA/i5vQy+bo7Q5kHfG71gXJUw8BPW6qDGrNjjVJ80dFWJ0bGiELxiGvXBH3+zuNbNkgCamhgYWe2+BCq1+bmrMoNXX+Ok8UpTZqrv5V7JiPXo26AkPc/qgvyVaSpeJZ5vblCczSn9/0PKuCFlLfGAJI1dfWW0TBqlC8kEfP03/eN1yntsMP/TFK9sIXkynZF5ZsEJfHSe4yHAFDRoV5GQiAXmc4x930OIO3UDdNeYgaaDyGuHT4ELwULhlPSklkPvqkBGID0oIuhd+E9M1rd809aIzpsFuRNOqUgMDinRlic5RnKEFMiKKPW6MoAwDQ==
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer

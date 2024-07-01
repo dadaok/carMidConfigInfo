@@ -1,10 +1,10 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: {cipher}AYCwGolIRBT38XtpGGFOaUy/YySAY8qST0MbVx9zGJtAu4csGbjhbSPyIFKIWS19069KyoUPx7D71Au6oGUtf5BuJGZ0HvgtcgR/Q6oZMqFr9enAGuXDDA3P/IzGEEi2KlRtEzd1M6CFerv1m0EynQyYGNJbX0vsO1ULmmcbTUYnpTEdCYOUcEbBTHUSoWzZ3YpSAiuduYYWY1Q31qtLkPAwOWEeyBjRmzPF1CKP6Dk7m42AYhHWFkcTEw44xOx9LoSV6Py8TfolKaPMAl3HRIU6HgnvPBNWao6EYpCbG/GX+rRRmWiMLks2ksJEl18jnK/bCE/L04y+YTp9FQw/mSFTS6mmKk05AGR5nimyPb5CUaH6vOz/doAJSnS/Mj7qGLKk+uRjRWEyQ0Dmgl1R/wnz55B41hqU04qvmDmXhP3jpaqLFw8MN2xwopY98jJ1kxYTdBEBBGCA67lho3PwLS92G23WmsYrfYe7kNO5/6/FIFlAAesD0oHGLLJNqWSC0mdVmYuSCk1bfrCNEJODqDlHFMW0Xkww4maeljimG5ofWA==
 spring:
   kafka:
     producer:
-      bootstrap-servers: 175.197.31.175:9092, 175.197.31.175:9093, 175.197.31.175:9094
+      bootstrap-servers: {cipher}AYByFEEAG9rITy4LxukgjLAyq+iD6bwDMM7T5KBz1yaDkLMWPJIH/Rp3xWonNEBji0tlFixV24b/jJVF2BuUfeVFSXapB5K88U6A2dMFQhMhkWoEvxL0fd1UQ6qnbpQANLwcWCHgK7cNKlSFahGQT8Z/xX0XwYfnZLAPLLAeCKW7Nklcq8kRy1fmMj7K5TCZVlO9kwKljLI7/ka0mqSEQJiXp5Vje9GCWNVyqoJCz431sCPdWwQbWQPTW/Z3C+QOwADxe403Sya04Qu+QSfOtDm+NDh49/+wcV19iuMpRPYkecH7hzp6MsoHS+LDIv5201bik83fglFJdVL6Sx9VPaYe7uAMTqSnu6Ob5L7H9S8J+fSfyOjhcS5DRAVlrSc/4zth6nW0KsOA2YeZidNA+s0tfS+kHLcHbYtyBz1CFGAWGV+GJapr0cQQOsT9eSjGyH1YFcdPGu2mB7fX5LB8hJwxU+N0aTSPLENGWC/D6cnUzEg6CbfuCp8ahxUD5/QqDC7TxgCC/ODJs0bQWHQEIuX91MTi/iFnGTmkeSfnyhxdlxdnQadN6jg3tbzaoZ5d7t8+FgfZN09Y5MvFqbQeso250dm0bOxcsOYbtYsLtRxUwQ==
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
