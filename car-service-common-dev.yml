@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: 'http://127.0.0.1:8761'
+      defaultZone: '{cipher}AYBidBLIZNfFzht7JEe4Fd9gjpwD3rkUWRx6wP4iczgOIPJYnNoWUiG5IO5ziIIuMtIowNOYmnVp7aBmqW+6FT0m2AWMrOWHLsqJaMT4t87BPklfZaiwTsP8XX6yK9sBlZi8hOoPJhvbv/aSZY+GcJmSb0LFJoyGT/RjqJ21Q0/OlECVlFNb1fc5fI3M2om5+pcr3N3MMo6zL72M0eGPB/JcF7nIEmQ3+ctaPzGP7k6M73wDL8PVSDnpNyiw/Bm6VpsxIpM6R5uEtrkW8O0d4zm2mcZvbBBZN8ZoXnk1NEgeUaGLe3nVNsyl+RYECUljYq/wtJuGDUYwlkvs4h+yW4jgJBhf/ev8PMk9AdlqRz3Z9aWIqbk6uXFpNninVPqW8KOLCHfeIBsCTE1fcdUyLzE96iVH5zLFnjAYLAQozF50uMj5D0qk00Y66j5NBKvg8ve/03AEXS2vhj2/1nAVTN0VPP7EJk5Vah7php3/k9kwE6Y2bO6tsazdEh+rUQxXdAAqUfqztmR87a6fv7cRX8dL85cU+rKHvOjx0W5QWUcFQw=='
 spring:
   kafka:
     producer:
