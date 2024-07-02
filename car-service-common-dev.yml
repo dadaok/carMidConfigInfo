@@ -11,7 +11,9 @@ spring:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
   zipkin:
-    base-url: '{cipher}AYDjKmqGrJC7fotW/6OajrTrnThEPFI29bgIf3/0/TOHBswAC5OjbMD0xn+qyTfbmEEHBPLCkPqJXX8Lc0Jao3k8yhV28dVAPcQa+y6Db/OGnLVR/CLFwNeXhcHlnQipOVftnEyq5H7Z/Wh5TBkOOUaDUVSPvr2iyu7LmcqH+Wor0mS3jqY6ONXCc35zTxAPgyCpFAUb5+ILyZ2MsVQXkN/ZNmVaNVLURyr7GtZ0dNvACEOqpy2fa1FyGJmi+XFQoyW9HrJS19NZJpbJrrePiDUiUrKBwGsddzHNBanrC1ctQjhwOBFT/pl1Yh+NGAqsp1dd4ACH93ruDZj7S2fkHvG3tWGDs+WUQ00G2AhjFJDVBNhNiDi4wMAYRyfB2xg2Ju/CrZRc48uCFNBE6Jo7kRsMYlLfAMNRE+7M5M8fLKbE97BejJtwJgxKB+fSuq4gUjIe8mB+uX60+ctw7WoSNGmgc5v/e13pmph0ICQF7352aSG6RJYlbAo+1tZ8O7fjt8T6L+A7r3liQkO79deABKHHzx3fvTPcONjmtKN7kYTLHqYXXF7UzfNXXhxQ4NYaWoc='
+    base-url: 
+      - 'http://'
+      - '{cipher}AYBbDj2yBjWPX/kj5TEdGVa169c/BqEwFJITQH0mvhce+n3kkwTFTeC9oNfFEnnB1zMcYTLj5pvz+2L6dqbTEOexlQsShkhY6CQTkoaQJRSUVP0LBXQ9dJZP2d1GybZIA45I1dtC1Ea4vfeI71PNRnMLDcsCoUrlsu1CMGGOwB5oGsyeAIcpdXlkapdKDec5Go13MKNm/nUZ6jMIxbK3H2OEPqKboL11nZV1qQD7Mqrmz8DF4lYodeeyzH36nRmJRl+auBm+uOpaZyoH0vl7cV8yhnmktEChdU7Mvse4d2mR0s58uRqlYLkv1V/7yNDpk2zVCHaEauPzWXYa23Q75JqF1pMBiVB+ieYHQcE8hE95oxw7abieth9Kkwwu3fOYd3lQdXtzjuUaoCvGCxjGrxLOEkNb7imrDl8+i1WiwNiQFldyEiiKJaDZbyz+0s0ntdTvikCMYicdkzhiFeyE8CqjpdGxak00+q0u6cGK0XVVLLhOngj1VWNDKghBup+cGue2uINiF9TBWRl386qe+3/X3Ha0HEZVJEwgfm1GmvkECsKih7TVTcbpgWNkrFcEayc='
     enabled: true
   sleuth:
     sampler:

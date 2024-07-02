@@ -11,7 +11,9 @@ spring:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
   zipkin:
-    base-url: '{cipher}AYC3G+emTlM2yHfsqFE7HNz1JXEh76co5I4u0tdYfQChv7k2VBJPdmB4kiKn7sUkTUu6BxTeUq9xzXM7BeKbxUAO5X482y0hdeQYOM5/sTZcDjWkl8oinkEG7DbNNKsBpeCQH34QVfD5lhJZIyYyWNu8J1mYyat0fHe8k2eP/vm4MRUjfgUke/STanwYAKvB8tDCNlBlQbvWfBld8fWCwnQsO0kntstaiOSynCi3QyrFVjvMYlqKVYUi/LoeXTTWEWVRaoy79YsHvWGcyewUS+XDdkvjDEDx3pirs7qWzc5T39g031K+MRqNSrQwy1SlHz1zsJzIirj7KaQF6w3QHHf+0QLUNkNPSOgwvUYSrZBpGcWXCjZExETKaE+L1eaV4e+Uv7x0DJXSj5Gg+TdFbke8hZOXzyrDsuXQU7jFLZzkfi8WlggoH9kuPrW10ic9fpouI7PovVLrIjjOOB2t5+CmncodHM9rIVt/svQFFS+DtD+xlqLbqt1mNFIGFOdNMKmF30lro6Bb5PcdLze9A0VqJ191sjp0CZmhrCTlFRNOsLfY99F9Slo+AZOaXjSklfQ='
+    base-url: 
+      - 'http://'
+      - '{cipher}AYDDwOpkNNtP6gDfS5x/JemDQ3y6MD5Dm8rAEdWKYeY1xb6VifoR34fTQUq4q8xWiH4Iq/XM9QBJP10RVi2GmE63eRPqMTV63x44jiJFgiufvVFwPBo6DnF+mkLXxukotNMyCdko03kj1tfrlzudOVxZDm6BzS4fHuTwXbCJGEsdKEeh/ljWB7ib+iwr3JTvMpGRmTnb/N6UzfGoQCdLZm6hxJvcCaDjgiB+QsQI37jvg7JfXbfXvD77ETV7jZUKOOcqul3GXRWEVsHsjZCx3aOM84PoIgPlzIYaNyvj6wGXPNuEkglHIOWqtax2X8n8oEyaA6aZ++rntTrMy1HFkfh6o6HT6Hd3eaHMDLRmBhZhHZ/Y5/we5i7C3rybXPf3syf2xJ5LW17yQv54UYX8XRxquIUQ5zwHf8/ZocWCNKtJ0y70TA1n0hNG1mqEAQcyshwfS/3LaCe5HnIbLySzWZOH6rLz0X8t1qdd/4/pA+g++U05422a+OufingFzSFtffpGJmuLc+Amvb7BPdNyZp4/Y9UiMSNXLZ4h3PYoiEjj6EhOVD0UwovUI/gLui7Eacc='
     enabled: true
   sleuth:
     sampler:
