@@ -1,9 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: 
-        - 'http://'
-        - '{cipher}AYBidBLIZNfFzht7JEe4Fd9gjpwD3rkUWRx6wP4iczgOIPJYnNoWUiG5IO5ziIIuMtIowNOYmnVp7aBmqW+6FT0m2AWMrOWHLsqJaMT4t87BPklfZaiwTsP8XX6yK9sBlZi8hOoPJhvbv/aSZY+GcJmSb0LFJoyGT/RjqJ21Q0/OlECVlFNb1fc5fI3M2om5+pcr3N3MMo6zL72M0eGPB/JcF7nIEmQ3+ctaPzGP7k6M73wDL8PVSDnpNyiw/Bm6VpsxIpM6R5uEtrkW8O0d4zm2mcZvbBBZN8ZoXnk1NEgeUaGLe3nVNsyl+RYECUljYq/wtJuGDUYwlkvs4h+yW4jgJBhf/ev8PMk9AdlqRz3Z9aWIqbk6uXFpNninVPqW8KOLCHfeIBsCTE1fcdUyLzE96iVH5zLFnjAYLAQozF50uMj5D0qk00Y66j5NBKvg8ve/03AEXS2vhj2/1nAVTN0VPP7EJk5Vah7php3/k9kwE6Y2bO6tsazdEh+rUQxXdAAqUfqztmR87a6fv7cRX8dL85cU+rKHvOjx0W5QWUcFQw=='
+      defaultZone: http://localhost:8761/
 spring:
   kafka:
     producer:
@@ -11,9 +9,7 @@ spring:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
   zipkin:
-    base-url: 
-      - 'http://'
-      - '{cipher}AYC3G+emTlM2yHfsqFE7HNz1JXEh76co5I4u0tdYfQChv7k2VBJPdmB4kiKn7sUkTUu6BxTeUq9xzXM7BeKbxUAO5X482y0hdeQYOM5/sTZcDjWkl8oinkEG7DbNNKsBpeCQH34QVfD5lhJZIyYyWNu8J1mYyat0fHe8k2eP/vm4MRUjfgUke/STanwYAKvB8tDCNlBlQbvWfBld8fWCwnQsO0kntstaiOSynCi3QyrFVjvMYlqKVYUi/LoeXTTWEWVRaoy79YsHvWGcyewUS+XDdkvjDEDx3pirs7qWzc5T39g031K+MRqNSrQwy1SlHz1zsJzIirj7KaQF6w3QHHf+0QLUNkNPSOgwvUYSrZBpGcWXCjZExETKaE+L1eaV4e+Uv7x0DJXSj5Gg+TdFbke8hZOXzyrDsuXQU7jFLZzkfi8WlggoH9kuPrW10ic9fpouI7PovVLrIjjOOB2t5+CmncodHM9rIVt/svQFFS+DtD+xlqLbqt1mNFIGFOdNMKmF30lro6Bb5PcdLze9A0VqJ191sjp0CZmhrCTlFRNOsLfY99F9Slo+AZOaXjSklfQ='
+    base-url: '{cipher}AYC3G+emTlM2yHfsqFE7HNz1JXEh76co5I4u0tdYfQChv7k2VBJPdmB4kiKn7sUkTUu6BxTeUq9xzXM7BeKbxUAO5X482y0hdeQYOM5/sTZcDjWkl8oinkEG7DbNNKsBpeCQH34QVfD5lhJZIyYyWNu8J1mYyat0fHe8k2eP/vm4MRUjfgUke/STanwYAKvB8tDCNlBlQbvWfBld8fWCwnQsO0kntstaiOSynCi3QyrFVjvMYlqKVYUi/LoeXTTWEWVRaoy79YsHvWGcyewUS+XDdkvjDEDx3pirs7qWzc5T39g031K+MRqNSrQwy1SlHz1zsJzIirj7KaQF6w3QHHf+0QLUNkNPSOgwvUYSrZBpGcWXCjZExETKaE+L1eaV4e+Uv7x0DJXSj5Gg+TdFbke8hZOXzyrDsuXQU7jFLZzkfi8WlggoH9kuPrW10ic9fpouI7PovVLrIjjOOB2t5+CmncodHM9rIVt/svQFFS+DtD+xlqLbqt1mNFIGFOdNMKmF30lro6Bb5PcdLze9A0VqJ191sjp0CZmhrCTlFRNOsLfY99F9Slo+AZOaXjSklfQ='
     enabled: true
   sleuth:
     sampler:
