@@ -3,7 +3,7 @@ eureka:
     service-url:
       defaultZone: 
         - 'http://'
-        - '127.0.0.1:8761/eureka/'
+        - '{cipher}AYAhzoho2SC2epFeecPmE9kVDUXaHzYEkOGL0rQTdcH0VQVMr8Etpz9NvjN4FwxntQCPdtYnvGvpDf2mL4NLjYSpFNaJMqhq+Rwjffl8krNqwJ1heFY+9skNEWJS8edD0HWWibrErnIId1mBheUjVjBUmfxJZB2rGiqhEOipDnnh8/nYy1NRiMmTDiGXUO2Fl6EgLmoAXUD+5sGTCCFUVxTHPb1JLgBrdgfQ4/rrFFYfdGzWPxK0KIoU75B7Lb1zymov1UAcyE2C6DbvkClfSrwDln+vTMN1ZdTz6l0wyc9yVCtfvSAqzAW/G9L1m1OdHmLDIjZ2kQZ3oEOech+uzkXMxIIeHwAn+SeNR8ONfwA3W2GEa7sGsJKxwcxiDb8To2pIZEWAlpaBcUOSSl6M3qbH6nQEMLPqA71ObYwchuBuvrJmsgiahdE3d3tid4z4ex9BWKiqAPmfWtWxz0JYpENTTOkT/onKklRRDTWzuh4BYb0KAUFGxoKf0HbDzI1wvDdgyiD6kTJrQt2Wk2BKeXxKtFFvUWqPH/Q36VaXLkRBbW3SS6bCSZBbA61fn6OqDoE='
 spring:
   kafka:
     producer:
